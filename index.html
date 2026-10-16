@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Ranjeet Kumar — B.Tech student, cybersecurity enthusiast, UI/UX designer and video editor.">
+  <title>Ranjeet Kumar — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">RK</span><span>ranjeet<span class="muted">.dev</span></span></a>
+  <nav id="nav"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+  <div class="nav-actions"><button id="themeToggle" class="icon-btn" aria-label="Switch theme">☼</button><a class="button button-small" href="resume.pdf" download>Download CV ↗</a><button id="menuToggle" class="icon-btn menu-toggle" aria-label="Open menu">☰</button></div>
+</header>
+<main>
+  <section class="hero section" id="home">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="status-dot"></span> CURIOUS BY NATURE · BUILDING EVERY DAY</div>
+      <p class="intro">Hey, I'm</p><h1>Ranjeet<br><span class="gradient-text">Kumar.</span></h1>
+      <h2 class="hero-role">B.Tech Student <span>/</span> Cybersecurity Enthusiast</h2>
+      <p class="hero-description">I explore how systems work, how they break, and how to make them safer — while creating clean digital experiences through UI/UX and video editing.</p>
+      <div class="hero-buttons"><a class="button" href="#projects">Explore my work <span>↘</span></a><a class="button button-ghost" href="resume.pdf" download>Download CV ↓</a></div>
+      <div class="hero-meta"><span>⌖ Punjab, India</span><span>🎓 IK Gujral Punjab Technical University</span></div>
+    </div>
+    <div class="hero-visual" aria-label="Interactive terminal illustration">
+      <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+      <div class="profile-card">
+        <div class="terminal-top"><span></span><span></span><span></span><label>ranjeet@portfolio:~</label></div>
+        <div class="terminal-body"><p class="mono"><span class="prompt">$</span> whoami</p><h3>Curious builder<span class="cursor">_</span></h3>
+          <p class="mono"><span class="prompt">$</span> cat focus.txt</p><div class="terminal-tags"><span>cybersecurity</span><span>web</span><span>design</span></div>
+          <p class="mono"><span class="prompt">$</span> echo "keep learning"</p><p class="terminal-output">keep learning<span class="cursor">_</span></p>
+        </div><div class="card-footer"><span>● LEARNING IN PROGRESS</span><span>v1.0.26</span></div>
+      </div><div class="floating-chip chip-one">⌘ Problem solving</div><div class="floating-chip chip-two">◈ Security-minded</div>
+    </div>
+    <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+  </section>
+
+  <section class="section divider" id="about">
+    <div class="section-heading"><p class="section-index">01 / ABOUT</p><h2>Curiosity, meet <span class="gradient-text">practical work.</span></h2></div>
+    <div class="about-grid"><p class="about-lead">I'm a B.Tech student building my skills across cybersecurity, programming, and digital design.</p>
+      <div class="about-details"><p>I'm learning network reconnaissance, web security, vulnerability assessment, and penetration-testing fundamentals in authorized environments. I also enjoy designing user-friendly interfaces and editing videos that tell a story.</p><p>My approach is simple: stay curious, build things, document what I learn, and keep improving.</p>
+        <div class="mini-facts"><div><strong>01</strong><span>Build & experiment</span></div><div><strong>02</strong><span>Learn continuously</span></div><div><strong>03</strong><span>Design with purpose</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="section-heading"><p class="section-index">02 / TOOLKIT</p><h2>Skills I'm <span class="gradient-text">building.</span></h2><p class="section-subtitle">Pick a category to filter the toolkit.</p></div>
+    <div class="filter-row" role="group" aria-label="Filter skills"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="security">Cybersecurity</button><button class="filter" data-filter="code">Programming</button><button class="filter" data-filter="design">Design & Media</button><button class="filter" data-filter="tools">Tools</button></div>
+    <div class="skills-grid">
+      <article class="skill-card" data-category="security"><div class="skill-icon">⌁</div><h3>Cybersecurity</h3><p>Network reconnaissance, web enumeration, vulnerability assessment, OWASP Top 10 and security analysis.</p><div class="pills"><span>Kali Linux</span><span>Nmap</span><span>Wireshark</span><span>Burp Suite</span><span>Metasploit</span><span>Gobuster</span><span>Nikto</span><span>Netcat</span></div></article>
+      <article class="skill-card" data-category="code"><div class="skill-icon">{ }</div><h3>Programming & CS</h3><p>Programming foundations and core computer science concepts.</p><div class="pills"><span>C</span><span>C++</span><span>Python (Basic)</span><span>Java (Basic)</span><span>SQL</span><span>R</span><span>DSA</span><span>OS</span><span>DBMS</span><span>Networks</span></div></article>
+      <article class="skill-card" data-category="design"><div class="skill-icon">✳</div><h3>Design & Media</h3><p>Creating visual content and clear, user-friendly digital experiences.</p><div class="pills"><span>UI/UX</span><span>Figma</span><span>Canva</span><span>Premiere Pro</span><span>CapCut</span><span>Video Editing</span></div></article>
+      <article class="skill-card" data-category="tools"><div class="skill-icon">⌘</div><h3>Developer & Server Tools</h3><p>Version control, experimentation, Android-hosted services and remote connectivity.</p><div class="pills"><span>Git</span><span>GitHub</span><span>Google Colab</span><span>Termux</span><span>Apache</span><span>Tiny File Manager</span><span>Tailscale</span></div></article>
+    </div><p class="skill-note">Learning in progress — tools listed reflect study and practice, not a claim of professional-level expertise.</p>
+  </section>
+
+  <section class="section divider" id="projects">
+    <div class="section-heading"><p class="section-index">03 / SELECTED WORK</p><h2>Projects with a <span class="gradient-text">purpose.</span></h2><p class="section-subtitle">Click a project card to see more details.</p></div>
+    <div class="projects-grid">
+      <article class="project-card" tabindex="0" role="button" data-project="files"><div class="project-top"><span class="project-number">PROJECT / 01</span><span class="project-arrow">↗</span></div>
+        <div class="project-art file-art"><div class="folder">▰</div><div class="file-lines"><i></i><i></i><i></i></div><span class="art-label">LOCAL · PRIVATE · CONNECTED</span></div>
+        <div class="project-content"><div class="pills"><span>Termux</span><span>Apache</span><span>Tailscale</span></div><h3>Secure Local File Management System</h3><p>A browser-accessible file-management setup hosted on Android, with remote access between trusted devices.</p><span class="read-more">View project details ↗</span></div>
+      </article>
+      <article class="project-card" tabindex="0" role="button" data-project="irctc"><div class="project-top"><span class="project-number">PROJECT / 02</span><span class="project-arrow">↗</span></div>
+        <div class="project-art browser-art"><div class="browser-window"><div class="browser-bar"><b></b><b></b><b></b></div><div class="form-line long"></div><div class="form-line"></div><div class="form-line short"></div><div class="autofill">✦ Autofill concept</div></div><span class="art-label">LESS REPETITION · BETTER FLOW</span></div>
+        <div class="project-content"><div class="pills"><span>Chrome Extension</span><span>Automation</span></div><h3>IRCTC Autofill Chrome Extension</h3><p>A concept for simplifying repetitive railway booking form entry through browser-based autofill.</p><span class="read-more">View project details ↗</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="education"><div class="section-heading"><p class="section-index">04 / EDUCATION</p><h2>Always on the <span class="gradient-text">learning curve.</span></h2></div>
+    <div class="timeline"><div class="timeline-dot"></div><div><p class="section-index">CURRENTLY PURSUING</p><h3>Bachelor of Technology (B.Tech)</h3><p>IK Gujral Punjab Technical University</p><span class="timeline-tag">Cybersecurity · Programming · Design</span></div></div>
+  </section>
+
+  <section class="section" id="contact"><div class="contact-panel"><div><p class="section-index">05 / GET IN TOUCH</p><h2>Have a project or opportunity?<br><span class="gradient-text">Let's connect.</span></h2><p class="contact-copy">I'm open to learning opportunities, collaborations, and conversations around technology, cybersecurity, and design.</p><div class="contact-actions"><a class="button" href="mailto:work.ranjeetkumar011@gmail.com">Email me ↗</a><button class="button button-ghost" id="copyEmail">Copy email ⧉</button></div><p id="copyStatus" class="copy-status" aria-live="polite"></p></div><div class="contact-orb"><span>RK</span><i></i><i></i><i></i></div></div></section>
+</main>
+<footer><a class="brand" href="#home"><span class="brand-mark">RK</span><span>ranjeet<span class="muted">.dev</span></span></a><span>Designed to learn. Built to grow.</span><span>© <span id="year"></span> Ranjeet Kumar</span></footer>
+
+<dialog id="projectDialog" class="project-dialog"><button class="dialog-close" id="closeDialog" aria-label="Close details">×</button><p class="section-index" id="dialogIndex"></p><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><h3>What I explored</h3><ul id="dialogBullets"></ul><p class="dialog-note">Student project / concept. Details can be expanded as the project evolves.</p></dialog>
+<script src="script.js"></script>
+</body></html>
